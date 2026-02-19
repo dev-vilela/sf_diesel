@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SF Diesel | Especialistas em Motores a Diesel</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="assets/style/index.css">
+</head>
+<body class="bg-gray-50 text-gray-900 overflow-x-hidden">
+
+    <!-- Header / Navigation -->
+    <header class="fixed w-full z-50 bg-black/80 backdrop-blur-md border-b border-white/10">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center h-20">
+            <div class="flex items-center space-x-2">
+                <div class="bg-brand-yellow text-black font-bold p-1 px-2 text-xl font-oswald " style="background-color: yellow; border-radius: 10px; font-weight: bold;">SF</div>
+                <div class="text-white font-bold text-xl font-oswald tracking-wider uppercase">Mecânica a Diesel</div>
+            </div>
+            
+            <!-- Desktop Menu -->
+            <div class="hidden md:flex space-x-8 text-sm font-medium text-gray-300 uppercase tracking-widest">
+                <a href="#inicio" class="hover:text-amber-500 transition-colors">Início</a>
+                <a href="#sobre" class="hover:text-amber-500 transition-colors">Sobre</a>
+                <a href="#servicos" class="hover:text-amber-500 transition-colors">Serviços</a>
+                <a href="#contato" class="hover:text-amber-500 transition-colors">Contato</a>
+            </div>
+
+            <div class="hidden md:block">
+                <a href="https://wa.me/556181243689?text=Olá,%20gostaria%20de%20fazer%20um%20orçamento%20para%20meu%20veículo." class="accent-gradient text-white px-6 py-2.5 rounded-full font-bold text-sm hover:shadow-lg hover:shadow-amber-500/20 transition-all transform hover:-translate-y-0.5">
+                    ORÇAMENTO RÁPIDO
+                </a>
+              
+            </div>
+
+            <!-- Mobile Menu Button (simplified) -->
+            <div class="md:hidden text-white">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+                </svg>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="relative min-h-screen flex items-center pt-20 overflow-hidden bg-black">
+        <!-- Background Overlay -->
+        <div class="absolute inset-0 z-0">
+            <div class="absolute inset-0 bg-gradient-to-r from-black via-black/70 to-transparent z-10"></div>
+            <img src="assets/img/hero-diesel.jpg" 
+                 alt="Motor Diesel de Alta Performance" 
+                 class="w-full h-full object-cover opacity-60">
+        </div>
+
+        <div class="relative z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+            <div class="max-w-2xl">
+                <span class="inline-block px-4 py-1 mb-6 border border-amber-500 text-amber-500 text-xs font-bold tracking-[0.2em] uppercase rounded-full">
+                    Manutenção em Máquinas pesadas em geral
+                </span>
+                <h1 class="text-5xl md:text-7xl font-extrabold text-white leading-tight mb-6">
+                    Especialistas em <br> <span class="text-amber-500">Motores a Diesel</span>
+                </h1>
+                <p class="text-xl text-gray-300 mb-10 leading-relaxed max-w-xl">
+                    Tecnologia de ponta, diagnóstico preciso e a força necessária para manter sua frota em movimento. Confiança que gera produtividade.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <a href="#contato" class="accent-gradient text-white px-8 py-4 rounded-lg font-bold text-center hover:scale-105 transition-transform shadow-xl shadow-amber-600/20">
+                        Solicitar Orçamento
+                    </a>
+                    <a href="#servicos" class="bg-white/10 backdrop-blur-sm text-white border border-white/20 px-8 py-4 rounded-lg font-bold text-center hover:bg-white/20 transition-all">
+                        Nossos Serviços
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Scroll Indicator -->
+        <div class="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce">
+            <svg class="w-6 h-6 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+            </svg>
+        </div>
+    </section>
+
+    <!-- Sobre a Empresa -->
+    <section id="sobre" class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 gap-16 items-center">
+                <div class="relative">
+                    <img src="assets/img/logo.png" 
+                         alt="ESPERANDO TU MANDAR A LOGO" 
+                         class="rounded-2xl shadow-2xl relative z-10">
+                    <div class="absolute -bottom-6 -right-6 w-48 h-48 bg-amber-500 -z-0 rounded-2xl hidden md:block"></div>
+                </div>
+                <div>
+                    <h2 class="text-3xl font-extrabold text-gray-900 mb-6">Compromisso com a <span class="text-amber-600">Excelência</span></h2>
+                    <p class="text-lg text-gray-600 mb-6 leading-relaxed">
+                        Fundada por Saulo Vilela, a <Strong>SF Mecânica a Diesel</Strong> nasceu da paixão pela manutenção de máquinas pesadas. Com anos de experiência prática no setor, Saulo atua pessoalmente em cada serviço, garantindo atenção aos detalhes e compromisso com a qualidade.
+
+                    </p>
+                    <p class="text-lg text-gray-600 mb-8 leading-relaxed">
+                        Aqui, cada atendimento é feito com responsabilidade e transparência, porque sabemos que máquina parada é prejuízo. Utilizando diagnóstico preciso e técnicas modernas de manutenção, a SF Diesel entrega soluções eficientes para manter seu equipamento sempre em pleno funcionamento.
+                    </p>
+                    <div class="grid grid-cols-2 gap-6">
+                        <div class="border-l-4 border-amber-500 pl-4">
+                            <span class="block text-3xl font-bold text-gray-900">4+</span>
+                            <span class="text-sm text-gray-500 uppercase font-semibold">Anos de Experiência</span>
+                        </div>
+                        <div class="border-l-4 border-amber-500 pl-4">
+                            <span class="block text-3xl font-bold text-gray-900">100%</span>
+                            <span class="text-sm text-gray-500 uppercase font-semibold">Garantia de Qualidade</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Serviços -->
+    <section id="servicos" class="py-24 bg-gray-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-extrabold text-gray-900 mb-4">Serviços Especializados</h2>
+                <div class="w-20 h-1.5 bg-amber-500 mx-auto rounded-full"></div>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Diagnóstico -->
+                <div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-xl transition-shadow border-b-4 border-transparent hover:border-amber-500 group">
+                    <div class="w-14 h-14 bg-amber-100 text-amber-600 rounded-lg flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">🔧Diagnóstico Completo</h3>
+                    <p class="text-gray-600 text-sm">Identificamos falhas com precisão cirúrgica utilizando scanners de última geração para sistemas diesel.</p>
+                </div>
+
+                <!-- Retífica -->
+                <div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-xl transition-shadow border-b-4 border-transparent hover:border-amber-500 group">
+                    <div class="w-14 h-14 bg-amber-100 text-amber-600 rounded-lg flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 4a2 2 0 114 0v1a1 1 0 001 1h3a1 1 0 011 1v3a1 1 0 01-1 1h-1a2 2 0 100 4h1a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-1a2 2 0 10-4 0v1a1 1 0 01-1 1H7a1 1 0 01-1-1v-3a1 1 0 00-1-1H4a2 2 0 110-4h1a1 1 0 001-1V7a1 1 0 011-1h3a1 1 0 001-1V4z"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">🛠 Freios</h3>
+                    <p class="text-gray-600 text-sm">Manutenção e reparo completo em sistemas de freio para linha pesada, garantindo segurança e desempenho.</p>
+                </div>
+
+                <!-- Manutenção -->
+                <div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-xl transition-shadow border-b-4 border-transparent hover:border-amber-500 group">
+                    <div class="w-14 h-14 bg-amber-100 text-amber-600 rounded-lg flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">🔩 Manutenção Preventiva</h3>
+                    <p class="text-gray-600 text-sm">Planos personalizados para evitar paradas inesperadas e reduzir custos operacionais de longo prazo.</p>
+                </div>
+
+                <!-- Injeção -->
+                <div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-xl transition-shadow border-b-4 border-transparent hover:border-amber-500 group">
+                    <div class="w-14 h-14 bg-amber-100 text-amber-600 rounded-lg flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.618.309a6 6 0 01-3.86.517l-3.193-.638a2 2 0 01-1.583-1.978V8.374c0-.543.36-1.01.876-1.138l3.193-.798a6 6 0 013.703.254l2.54 1.27a3.536 3.536 0 001.236.406l9.9 1.65a1 1 0 01.834.986V15a1 1 0 01-1 1h-1.072a2 2 0 00-1.428-.572z"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">⚙ Manutenção de Diferencial</h3>
+                    <p class="text-gray-600 text-sm">Serviços completos de revisão, ajuste e manutenção de diferencial para melhor performance do veículo.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Diferenciais -->
+    <section class="py-24 gradient-dark text-white overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-12">
+                <div class="text-center">
+                    <div class="text-amber-500 font-black text-5xl mb-4">#1</div>
+                    <h4 class="font-bold text-lg mb-2">Atendimento Rápido</h4>
+                    <p class="text-gray-400 text-sm">Prioridade máxima em veículos de trabalho para reduzir o tempo parado.</p>
+                </div>
+                <div class="text-center">
+                    <div class="text-amber-500 font-black text-5xl mb-4">PRÓ</div>
+                    <h4 class="font-bold text-lg mb-2">Qualificação</h4>
+                    <p class="text-gray-400 text-sm">Técnicos certificados e em constante atualização tecnológica.</p>
+                </div>
+                <div class="text-center">
+                    <div class="text-amber-500 font-black text-5xl mb-4">TOP</div>
+                    <h4 class="font-bold text-lg mb-2">Equipamentos</h4>
+                    <p class="text-gray-400 text-sm">Ferramental moderno para lidar com os motores diesel mais novos do mercado.</p>
+                </div>
+                <div class="text-center">
+                    <div class="text-amber-500 font-black text-5xl mb-4">100%</div>
+                    <h4 class="font-bold text-lg mb-2">Garantia</h4>
+                    <p class="text-gray-400 text-sm">Todos os nossos serviços acompanham termo de garantia e procedência.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Depoimentos -->
+    <section class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-center text-3xl font-extrabold mb-16 italic">"Quem confia na SF Mecânica a Diesel, não fica na mão."</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-gray-50 p-8 rounded-2xl relative">
+                    <span class="text-6xl text-amber-200 absolute top-4 left-4 font-serif">“</span>
+                    <p class="relative z-10 text-gray-600 italic mb-6 mt-4">Levei meu caminhão com um problema crônico de injeção que ninguém resolvia. O Saulo matou a charada no primeiro dia. Serviço nota 10!</p>
+                    <div class="font-bold">— Roberto Silva, Transportadora RS</div>
+                </div>
+                <div class="bg-gray-50 p-8 rounded-2xl relative">
+                    <span class="text-6xl text-amber-200 absolute top-4 left-4 font-serif">“</span>
+                    <p class="relative z-10 text-gray-600 italic mb-6 mt-4">Melhor custo-benefício da região. Honestidade é a marca deles. Recomendo para todos os meus colegas autônomos.</p>
+                    <div class="font-bold">— Marcos Oliveira, Caminhoneiro Autônomo</div>
+                </div>
+                <div class="bg-gray-50 p-8 rounded-2xl relative">
+                    <span class="text-6xl text-amber-200 absolute top-4 left-4 font-serif">“</span>
+                    <p class="relative z-10 text-gray-600 italic mb-6 mt-4">A SF Mecânica a Diesel cuida de toda a minha frota de vans escolares. Segurança para mim e para as crianças que transporto.</p>
+                    <div class="font-bold">— Carla Ferreira, Transporte Escolar</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="py-24 bg-gray-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-white rounded-3xl shadow-2xl overflow-hidden grid lg:grid-cols-2">
+                <!-- Informações -->
+                <div class="gradient-dark p-12 text-white">
+                    <h2 class="text-4xl font-extrabold mb-8">Vamos Conversar?</h2>
+                    <p class="text-gray-400 mb-12">Estamos prontos para atender você e sua empresa. Tire suas dúvidas ou agende uma visita técnica agora mesmo.</p>
+                    
+                    <div class="space-y-6">
+                        <div class="flex items-start space-x-4">
+                            <div class="text-amber-500">
+                                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"></path></svg>
+                            </div>
+                            <div>
+                                <h5 class="font-bold">Endereço</h5>
+                                <p class="text-gray-400 text-sm">Parque Estrela Dalva 7 - Luziânia-GO</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-4">
+                            <div class="text-amber-500">
+                                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"></path></svg>
+                            </div>
+                            <div>
+                                <h5 class="font-bold">Telefone / WhatsApp</h5>
+                                <p class="text-gray-400 text-sm"> (61) 8124-3689</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-16">
+                        <a href="https://wa.me/556181243689?text=Olá,%20gostaria%20de%20fazer%20um%20orçamento%20para%20meu%20veículo." class="flex items-center justify-center space-x-3 bg-green-600 hover:bg-green-700 text-white py-4 rounded-xl transition-colors font-bold w-full">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884 0 2.225.569 3.946 1.694 5.601l-1.119 4.085 4.237-1.112z"/></svg>
+                            <span>Falar no WhatsApp</span>
+                        </a>
+                    </div>
+                </div>
+
+               
+                <!-- Formulário -->
+<div class="p-12">
+    <form action="https://formsubmit.co/saulomelo15@outlook.com" method="POST" class="space-y-6">
+        
+        <div>
+            <label class="block text-sm font-bold text-gray-700 mb-2 uppercase tracking-wide">
+                Seu Nome
+            </label>
+            <input 
+                type="text" 
+                name="name"
+                placeholder="Ex: João Silva" 
+                class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-amber-500 focus:border-transparent outline-none transition-all"
+                required
+            >
+        </div>
+
+        <div>
+            <label class="block text-sm font-bold text-gray-700 mb-2 uppercase tracking-wide">
+                Telefone
+            </label>
+            <input 
+                type="tel" 
+                name="whatsapp"
+                placeholder="(00) 00000-0000" 
+                class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-amber-500 focus:border-transparent outline-none transition-all"
+                required
+            >
+        </div>
+
+        <div>
+            <label class="block text-sm font-bold text-gray-700 mb-2 uppercase tracking-wide">
+                Mensagem
+            </label>
+            <textarea 
+                rows="4" 
+                name="message"
+                placeholder="Descreva brevemente sua necessidade..." 
+                class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-amber-500 focus:border-transparent outline-none transition-all"
+                required
+            ></textarea>
+        </div>
+
+        <button 
+            type="submit" 
+            class="w-full bg-black text-white py-4 rounded-lg font-bold hover:bg-gray-800 transition-colors shadow-lg uppercase tracking-widest"
+        >
+            Enviar Mensagem
+        </button>
+
+        <!-- Configuração FormSubmit -->
+        <input type="hidden" name="_subject" value="Novo Orçamento - SF Mecânica Diesel">
+        <input type="text" name="_honey" style="display:none">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="https://seusite.com/obrigado.html">
+
+    </form>
+</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+
+
+        <footer class="bg-black py-12 border-t border-white/5 text-center">
+        <div class="flex justify-center items-center space-x-2 mb-6">
+             <span class="text-3xl font-extrabold tracking-tighter text-white">SF<span class="text-amber-500">Mecânica a Diesel</span></span>
+             <p style="color: #ffffffbb;">CNPJ 62.147.839/0001-04</p>
+        </div>
+        <p style="color: #ffffffbb;">&copy; 2026 SF Diesel - Todos os direitos reservados. Desenvolvido por <a href="https://protechvil.netlify.app/" target="_blank"><strong>PROTECHVIL</strong></a>.</p>
+    </footer>
+</body>
+</html>
