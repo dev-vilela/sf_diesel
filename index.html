@@ -22,12 +22,7 @@
             </div>
             
             <!-- Desktop Menu -->
-            <div class="hidden md:flex space-x-8 text-sm font-medium text-gray-300 uppercase tracking-widest">
-                <a href="#inicio" class="hover:text-amber-500 transition-colors">Início</a>
-                <a href="#sobre" class="hover:text-amber-500 transition-colors">Sobre</a>
-                <a href="#servicos" class="hover:text-amber-500 transition-colors">Serviços</a>
-                <a href="#contato" class="hover:text-amber-500 transition-colors">Contato</a>
-            </div>
+
 
             <div class="hidden md:block">
                 <a href="https://wa.me/556181243689?text=Olá,%20gostaria%20de%20fazer%20um%20orçamento%20para%20meu%20veículo." class="accent-gradient text-white px-6 py-2.5 rounded-full font-bold text-sm hover:shadow-lg hover:shadow-amber-500/20 transition-all transform hover:-translate-y-0.5">
@@ -36,14 +31,33 @@
               
             </div>
 
-            <!-- Mobile Menu Button (simplified) -->
-            <div class="md:hidden text-white">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
-                </svg>
-            </div>
+        <!-- Botão Mobile -->
+        <button id="menu-btn" class="md:hidden text-white focus:outline-none">
+            <svg xmlns="http://www.w3.org/2000/svg"
+                 class="h-8 w-8"
+                 fill="none"
+                 viewBox="0 0 24 24"
+                 stroke="currentColor">
+                <path stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M4 6h16M4 12h16m-7 6h7" />
+            </svg>
+        </button>
+
         </nav>
     </header>
+
+    <!-- MENU MOBILE -->
+<div id="mobile-menu"
+     class="hidden md:hidden fixed top-20 w-full bg-black border-b border-white/10 z-40">
+    <div class="flex flex-col space-y-6 px-6 py-8 text-gray-300 uppercase text-sm tracking-widest">
+        <a href="#inicio" class="hover:text-amber-500">Início</a>
+        <a href="#sobre" class="hover:text-amber-500">Sobre</a>
+        <a href="#servicos" class="hover:text-amber-500">Serviços</a>
+        <a href="#contato" class="hover:text-amber-500">Contato</a>
+    </div>
+</div>
 
     <!-- Hero Section -->
     <section id="inicio" class="relative min-h-screen flex items-center pt-20 overflow-hidden bg-black">
@@ -312,7 +326,7 @@
         <input type="hidden" name="_subject" value="Novo Orçamento - SF Mecânica Diesel">
         <input type="text" name="_honey" style="display:none">
         <input type="hidden" name="_captcha" value="false">
-        <input type="hidden" name="_next" value="https://seusite.com/obrigado.html">
+        <input type="hidden" name="_next" value="https://sfdiesel.netlify.app//obrigado.html">
 
     </form>
 </div>
@@ -330,5 +344,7 @@
         </div>
         <p style="color: #ffffffbb;">&copy; 2026 SF Diesel - Todos os direitos reservados. Desenvolvido por <a href="https://protechvil.netlify.app/" target="_blank"><strong>PROTECHVIL</strong></a>.</p>
     </footer>
+
+    <script src="js/index.js"></script>
 </body>
 </html>
